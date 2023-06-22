@@ -17,7 +17,7 @@ def hyou():
 def furui():
     global n
     for i in range(n+n, 100, n):
-        p[i] == False
+        p[i] = False
     print(n, "の倍数を篩い落としました")
     hyou()
     while n<100:
